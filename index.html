@@ -6,75 +6,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <script src="./dashboard.js" defer> </script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- <a href="https://www.flaticon.com/free-icons/avatar" title="avatar icons">Avatar icons created by Freepik - Flaticon</a> -->
     <title>Admin Dashboard</title>
 </head>
 <body>
     <div class="dashboard">
         <div class="sidebar">
-            <h3>Dashboard</h3>
+            <div class="sidebarheader">
+                <i class="material-icons">business_center</i>
+                <h3>Dashboard</h3>
+            </div>
             <div class="sidebardlists">
                 <div class="toplist">
+                    
                     <div class="toplisttext">
                         <ul>
                             <li>
-                                <img src="" alt="Home Icon">
+                                <i class="material-icons">home</i>
                                 Home
                             </li>
                             <li>
-                                <img src="" alt="Profile Icon">
+                                <i class="material-icons">person</i>
                                 Profile
                             </li>
                             <li>
-                                <img src="" alt="Messages Icon">
+                                <i class="material-icons">message</i>
                                 Messages
                             </li>
                             <li>
-                                <img src="" alt="Messages Icon">
+                                <i class="material-icons">list_alt</i>
                                 Orders
                             </li>
                             <li>
-                                <img src="" alt="Community Icon">
+                                <i class="material-icons">forum</i>
                                 Community
+                            </li>
+                            <li>
+                                <i class="material-icons">settings</i>
+                                Settings
+                            </li>
+                            <li>
+                                <i class="material-icons">support</i>
+                                Support
+                            </li>
+                            <li>
+                                <i class="material-icons">shield</i>
+                                Privacy
                             </li>
                         </ul>
 
                     </div>
 
                 </div>
-                <div class="bottomlist">
-                    <ul>
-                        <li>
-                            <img src="" alt="Settings Icon">
-                            Settings
-                        </li>
-                        <li>
-                            <img src="" alt="Support Icon">
-                            Support
-                        </li>
-                        <li>
-                            <img src="" alt="Privacy Icon">
-                            Privacy
-                        </li>
-                    </ul>
-
-                </div>
+        
             </div>
 
         </div>
         <div class="rightside">
             <div class="toolbar">
                 <div class="topbar">
-                    <div class="searchbar">Search</div>
-                    <div class="notifications">Notification</div>
-                    <div class="profile">Profile</div>
-
+                    <div class="searchbar">
+                        <i class="material-icons">search</i>
+                        <input type="text" placeholder="Search..">
+                    </div>
+                        <div class="topbarright">
+                            <i class="material-icons">notifications</i>
+                            <img class="smallpic" src="./dog.png" alt="profile picture">
+                            <p class="username">@Bobby Flay</p>
+                    </div>
                 </div>
                 <div class="bottombar">
-                    <div class="hello">Hi There</div>
+                    <div class="hello">
+                        <img src="./dog.png" alt="profile picture">
+                        <p class="hithere">Hi there,</p>
+                        <p class="username">@Bobby Flay</p>
+                    </div>
                     <div class="bottombarmenu">
-                        <div class="new">New</div>
-                        <div class="upload">Upload</div>
-                        <div class="share">Share</div>
+                        <button class="new">New</button>
+                        <button class="upload">Upload</button>
+                        <button class="share">Share</button>
                     </div>
                 </div>
 
@@ -85,16 +96,16 @@
                     <h3>Your Menu</h3>
                     <div class="menugrid">
                         <div class="menuitem">
-                            <h4>Item 1</h4>
-                            <p>Description of item 1</p>
+                            <h4>Sourdough Loaf</h4>
+                            <p>Classic white sourdough loaf, made from organic unbleached white flour and our homemade starter.</p>
                         </div>
                         <div class="menuitem">
-                            <h4>Item 2</h4>
-                            <p>Description of item 2</p>
+                            <h4>Spelt & Rye Loaf</h4>
+                            <p>Hearty and nutricious loaf made from red wheat, spelt and rye flours. This is a denser bread, that works great as a side for soup or snacking with some butter.</p>
                         </div>
                         <div class="menuitem">
-                            <h4>Item 3</h4>
-                            <p>Description of item 3</p>
+                            <h4>Foccacia Bread</h4>
+                            <p>Classic Italian foccacia, that also has some sourdough starter. Topped with cherry tomatoes and rosemary.</p>
                         </div>
                         <div class="menuitem">
                             <h4>Item 4</h4>
